@@ -1,0 +1,25 @@
+enabled: true
+id: "techs"
+
+content:
+  title: "Our secret recipe 🧪"
+  items:
+    - "images/android.png"
+    - "images/swift.png"
+    - "images/kotlin.png"
+    - "images/jetpack-compose.png"
+    - "images/flutter.png"
+    - "images/react-native.png"
+    - "images/javascript.png"
+    - "images/go.png"
+    - "images/java.png"
+    - "images/aws.png"
+    - "images/gcp.png"
+    - "images/postgresql.png"
+    - "images/ci-cd.png"
+    - "images/react.png"
+    - "images/adobe.png"
+    - "images/figma.png"
+    - "images/ux-design.png"
+
+

@@ -1,0 +1,17 @@
+enabled: true
+id: "brands"
+
+content:
+  title: "We've been working alongside like-minded founders and brands since ages. "
+  items:
+    - "images/arbin.png"
+    - "images/yamna.png"
+    - "images/gic-a3.png"
+    - "images/ionoid.png"
+    - "images/balsamin.png"
+    - "images/coridors.png"
+    - "images/chapchapgo.png"
+    - "images/e-logistica.png"
+
+
+

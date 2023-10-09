@@ -1,0 +1,29 @@
+.section.hero {
+  .hero-image {
+    // @media (min-width: 1400px) {
+    //   img {
+    //     max-width: 125%;
+    //     float: right;
+    //   }
+    // }
+  }
+  .hero-title {
+    padding-top: 24px;
+    font-size: 3rem;
+    @media (min-width: 992px) {
+          font-size: 7rem;
+     }
+  }
+    strong {
+      color: $danger;
+    }
+  
+  .xl-font-size {
+    @media (min-width: 992px) {
+      font-size: 2rem;
+ }
+    font-size: 1.2rem;
+  }
+
+  }
+  

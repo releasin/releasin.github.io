@@ -1,0 +1,13 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "We design, build and release **digital products**"
+  text: "We specialize in transforming innovative concepts into top-notch software by leveraging our proficiency in technology, design, and product management."
+
+  buttonPrimary:
+    label: "Get in touch"
+    url: "mailto:contact@releasin.com"
+
+  
+

@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Let's release your ideas! 🚀"
+  image: ""
+  button:
+    label: "Get in touch"
+    url: "mailto:contact@releasin.com"

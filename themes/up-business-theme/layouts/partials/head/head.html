@@ -1,0 +1,37 @@
+<head>
+  <!-- Title -->
+  <title>{{ .Site.Title }} {{ with .Title }} | {{ . }} {{ end }}</title>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{end}}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="releasin,releasing,relising,relisine,relizing,relysing,application mobile,developpement mobile,créer une application mobile,mobile,mobile app development,module développement des applications mobiles,mobile application development,mobile application software (industry),application mobile pour créer des jeux,mobile development,application,application mobile à vendre,application mobile hybride,mobile app,comment créer une application mobile,application mobile utile,créer application mobile,software development,software development process,developpement logiciel,web development,software development kit,software development life cycle,développement logiciel,development,agile development,ios development,product development,development tools,développer un logiciel,career development,development with ai,kanban development,extreme development,startup development,application development,app development tools,business development,ux design,ui ux,ux,ui ux design,ui design,ux ui,ui,ux ui design,ux designer,ui ux course,ui ux дизайн,learn ux design,ui ux difference,ui ux comparison,ux course,ui ux дизайн уроки,ui ux design course,ui ux design tutorial,ui designer,ux ui дизайнер,ux and ui design,ux designer career,ux / ui,ux jobs,ui ux tutorial for beginners,how to become a ui ux designer,what is ui ux,ui ux dizajn,ux vs ui,learn ux,what is ux,ui ux designer,interior design,design,design trends,graphic design,web design,design tips,design hacks,interior design tips,design trends 2023,design seed,graphic design trends,design fails,website design,graphic design trends 2023,o que é design?,graphic design trend,learn graphic design,gadget designer,ux design,ui design,interior design ideas,graphic designer,designer,home design,design news,dhot design,design life,graphic design trends 2022,branding,branding your business,branding 101,branding basics,branding strategy,personal branding,what is branding,branding explained,how to branding,luxury branding,branding cattle,branding process,branding identity,business branding,branding principles,chief branding officer,personal branding tips,re branding,#branding,how to get started in branding,personal branding techniques,branding 2021,branding 2022,nike branding,branding tips,logo design,illustrator logo design,logo,design,how to design a logo,logo design tutorial,design logo,minimal logo design,how to logo design,learn logo design,graphic design,comment créer un logo,logo design tutorial for beginners,a&g logo design pixellab,logo design illustrator,logo design tutorial illustrator,logo design on illustrator,earn money with logo design,minimal logo design illustrator,fiverr algerie,creer un logo,comment créer des logos,algérie,agence de communication,agence française de développement,agence web algerie,algerie,agence de design algérie,agence de production audiovisuelle algerie,agence air algérie de paris,agence de développement,alger,developpement web,agence air algérie de paris : un client crie au scandale,agence web algérie,agence air algérie de paris : les clients crier au scandale,digital algerie,développement des applications algérie,agence marketing digital algérie,backend web development,backend development,backend developer,web development,backend developer roadmap,how to become a backend developer,backend web development tutorial,backend developer skills,how to become backend developer,become backend developer,frontend vs backend,how to be a backend developer,how to become backend web developer,how to be a backend web developer,backend development tutorial,how to become a good backend developer,software development,algerie,algérie,web development,algeria,web development company in algeria,actualités algerie,web development lebanon,web development company,website development company in algeria,developpement tourisme algerie,app development company in algeria,alger,developpement energie renouvelable algerie,indice developpement humain algérie,web,news algerie,website development,app development,software development,website development company,front end developer,front end,how to become a front end developer,front end web development,front end developer roadmap,front end trends,how to become a front end web developer,front end web developer,self taught front end developer,how to become front end developer,front end dersi,front,what is front end,front end roadmap,front end rehberi,cysecor front end,front end engineer,front end interview,front end trends 2023,front end dev roadmap,product design,product designer,design,ux design,industrial design,product design vs ux design,ui/ux design,product designer career,graphic design,ui design,product designer vs ux designer,learn product design,product design trends,product design process,product design portfolio,product,product packaging design,product design requirements,how to design products,ux designer,user experience design,design sprint,gv design sprint,design process,algerie,algérie,algeria,startup,startup en algérie,algeria startup challenge,alger algerie dz 2019 ennahar tv youtube,start ups in algeria,startup in algeria,créer une startup en algérie,#algeria startup challenge,#algeria,startups in algeria,start-up algérie,algerien,créer une startup au maroc,alger,what's a startup,créer une startup sans argent,#algérie,comment tu creer une startup,algeria vlog 2022,yassir algérie,startupalgerie"/>
+    
+  <!-- Favicons and Manifest -->
+  {{ partial "head/_favicons.html" . }}
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- SEO: Google Analytics -->
+  {{ partial "head/_seo.html" . }}
+
+  <!-- Stylesheets and Javascript -->
+  {{ partial "head/_resources.html" . }}
+
+  <!-- RSS -->
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0V94LNG6B3"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0V94LNG6B3');
+  </script>
+</head>
+

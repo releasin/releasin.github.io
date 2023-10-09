@@ -1,0 +1,90 @@
+baseURL: "releasin.com"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Releasin - Design & Development"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Releasin "
+  description: "We design, build and release digital products."
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    instagram: "https://www.instagram.com/releas.in/"
+    facebook: "https://web.facebook.com/releas.in"
+    twitter: "https://twitter.com/Releasin_"
+    linkedin: "https://www.linkedin.com/company/releasin"
+
+  location:
+    - "Mohammadia, Algiers."
+
+  contact:
+    - "contact@releasin.com"
+    - "+213.770.107.213"
+
+  copyright: "© 2023 Releasin All Rights Reserved"
+
+  postProcess: false
+
+menus:
+  main:
+
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    - name: "About"
+      url: "/about"
+      weight: 2
+
+    - name: "What we do"
+      url: "/what-we-do"
+      weight: 2
+
+
+    - name: "Our products"
+      url: "/our-products"
+      weight: 3
+
+    - name: "Learning Center"
+      url: "/learning-center"
+      weight: 4
+
+
+
+  buttons:
+    - name: "Get in touch"
+      url: "mailto:contact@releasin.com"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About"
+      url: "/about"
+      weight: 2
+
+    - name: "Our Products"
+      url: "/our-products"
+      weight: 3
+
+    - name: "Learning Center"
+      url: "/learning-center"
+      weight: 4
+
+taxonomies:
+  series: "series"
+  tags: "tags"

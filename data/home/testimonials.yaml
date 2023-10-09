@@ -1,0 +1,16 @@
+enabled: true
+id: "Why Releasin?"
+
+content:
+  title: "Why Releasin?"
+
+  list:
+    - text: "We believe that clear, measurable goals drive successful outcomes. By setting and working towards specific, targeted objectives, we ensure that our projects stay on track and deliver real value to our clients. Our team focuses on results-driven solutions, constantly assessing and adjusting our approach to meet the evolving needs of our clients and their users. "
+      client: "Goal Oriented"
+
+    - text: "We prioritize the user in our UX design process through human-centered design. Our team conducts research and testing to understand user needs, leading to intuitive, user-friendly designs that provide a better user experience and achieve our clients' goals. This approach results in effective and engaging designs."
+      client: "Human-centered design"
+
+    - text: "We use design thinking in product dev to prioritize end-user needs and experiences. Empathy and understanding lead to innovative, effective solutions. User feedback drives iteration, creating products that exceed expectations. Design thinking fosters creativity and collaboration, leading to better outcomes and user experience."
+      client: "Design thinking"
+

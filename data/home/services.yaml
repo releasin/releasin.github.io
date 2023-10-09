@@ -1,0 +1,21 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Our main services"
+  text: "With a focus on creativity and customer satisfaction, we create customized and high-quality solutions that meet the unique needs of each of our clients."
+  cards:
+    - image: "images/product-design.png"
+      title: "Product Design (UI/UX)"
+      text: "We specialize in creating polished, professional product designs that make a lasting impression. Our team excels in human-centered design and unique branding for visually appealing solutions. Trust our expertise for exceptional results."
+
+
+    - image: "images/software-engineering.png"
+      title: "Software Engineering"
+      text: "A team of expert engineers will work with you to design, develop, and implement custom software that meets your specific needs. Whether you need a new application built from scratch or want to upgrade your existing software, we've got you covered. "
+      button:
+
+    - image: "images/branding.png"
+      title: "Branding"
+      text: "Your one-stop solution for creating a visually appealing, memorable and cohesive brand identity. Our designers will work with you to understand your business goals and target audience, to create a unique brand design that reflects your company's values."
+      button:

@@ -1,0 +1,13 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/illustration01.png"
+    pretitle: "What we do"
+    title: "Tailored solutions for every stage of development."
+    text: "At Releasin, we understand that developing a successful product is a complex and multifaceted process that requires a wide range of skills and expertise. That's why we offer comprehensive support to help you navigate every stage of the product development lifecycle, from the initial spark of an idea to the ongoing growth and expansion of your product."
+
+    buttons: 
+
+      - label: "Read more"
+        url: "/what-we-do"
